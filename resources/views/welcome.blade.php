@@ -12,7 +12,7 @@
                 <div class="d-flex justify-content-center align-items-center h-100">
                     <div class="button_elements d-flex justify-content-center py-5">
                         <a class="btn btn-primary" href="{{ route('login') }}">{{ __('Login') }}</a>
-                        <a class="btn btn-light mx-3" href="{{ route('register') }}">{{ __('Registrati') }}</a>
+                        {{-- <a class="btn btn-light mx-3" href="{{ route('register') }}">{{ __('Registrati') }}</a> --}}
                     </div>
                 </div>
             </div>

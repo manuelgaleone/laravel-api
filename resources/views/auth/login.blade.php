@@ -42,7 +42,7 @@
                                         </button>
                                     </form>
                                     <!--Form-->
-                                    <button class="btn btn-light btn-user btn-block my-2" href="{{ route('register') }}">{{ __('Register') }}</button>
+                                    {{-- <button class="btn btn-light btn-user btn-block my-2" href="{{ route('register') }}">{{ __('Register') }}</button> --}}
                                 </div>
                             </div>
                         </div>
