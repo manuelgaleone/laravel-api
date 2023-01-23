@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>ManuelFolio - BackOffice</title>
+    <title>ManuelFolio - Back Office</title>
 
 
     <!-- Fonts -->
