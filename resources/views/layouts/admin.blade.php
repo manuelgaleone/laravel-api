@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>ManuelFolio - Back Office</title>
+    <title>ManuelFolio - BackOffice</title>
 
 
     <!-- Fonts -->
@@ -25,28 +25,21 @@
             <div id="wrapper">
                 <!-- Sidebar -->
                 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-                    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                        <div class="sidebar-brand-icon rotate-n-15">
-                            <i class="fas fa-laugh-wink"></i>
-                        </div>
-                        <div class="sidebar-brand-text mx-3">Boolfolio</div>
-                    </a>
-                    <!-- Divider -->
-                    <hr class="sidebar-divider my-0">
-
-                    <!-- Nav Item - Dashboard -->
-                    <li class="nav-item active">
-                        <a class="nav-link {{ Route::currentRouteName() === 'admin.dashboard' ? 'text-white' : ''}}" href=" {{route('admin.dashboard')}}">
-                            <span>Dashboard</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link {{ Route::currentRouteName() === 'admin.dashboard' ? 'active' : ''}}" href=" {{route('admin.projects.index')}}">
-                            <span>Projects</span></a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link {{ Route::currentRouteName() === 'admin.dashboard' ? 'active' : ''}}" href=" {{route('admin.projects.create')}}">
-                            <span>Create new project</span></a>
-                    </li>
+                    <div class="nav_elements py-2">
+                        <!-- Nav Item - Dashboard -->
+                        <li class="nav-item active">
+                            <a class="nav-link {{ Route::currentRouteName() === 'admin.dashboard' ? 'text-white' : ''}}" href=" {{route('admin.dashboard')}}">
+                                <span>Dashboard</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link {{ Route::currentRouteName() === 'admin.dashboard' ? 'active' : ''}}" href=" {{route('admin.projects.index')}}">
+                                <span>Projects</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link {{ Route::currentRouteName() === 'admin.dashboard' ? 'active' : ''}}" href=" {{route('admin.projects.create')}}">
+                                <span>Create new project</span></a>
+                        </li>
+                    </div>
                 </ul>
                 <!-- End of Sidebar -->
 
